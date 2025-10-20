@@ -5,7 +5,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Función para mostrar u ocultar la información adicional
     toggleButton.addEventListener('click', function() {
-        if (extraInfo.style.display === "none") {
+        //mostrar mensaje en consola
+		        console.log("Botón de alternar información presionado");
+		if (extraInfo.style.display === "none") {
             extraInfo.style.display = "block";
             toggleButton.textContent = "Ocultar información";
         } else {
